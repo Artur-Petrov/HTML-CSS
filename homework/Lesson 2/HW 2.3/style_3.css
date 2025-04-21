@@ -17,6 +17,11 @@ body{
     width: 175px;
     background-color: rgb(210, 227, 201);
     border-radius: 5px;
+    transition: 1s;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 2s;
 }
 .card p{
     font-size: 11px;
