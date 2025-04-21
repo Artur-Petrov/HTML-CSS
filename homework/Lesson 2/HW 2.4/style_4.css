@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: #fbb197;
+    margin: 0 30px;
+
+}
+.card p{
+    text-align: center;
+}
+.rubik{
+    font-family: "Rubik Pixels", system-ui;
+    font-weight: 600;
+}
+.sedgwick{
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 400;
+}
+.dancing{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+.fjalla{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 600;
+}
+.indie{
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+}
+
