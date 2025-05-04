@@ -229,7 +229,7 @@ header nav ul a {
 .active_button{
     width: 160px;
     height: 55px;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px 0 0 10px;
     background: #5454D4;
     color: #FFF;
     text-align: center;
@@ -238,7 +238,6 @@ header nav ul a {
     font-weight: 700;
     letter-spacing: -0.5px;
     border: none;
-    width: 160px;
 }
 .unactive_button{
     background-color: #fff;
