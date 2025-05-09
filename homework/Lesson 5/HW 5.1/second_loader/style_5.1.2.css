@@ -1,0 +1,71 @@
+body {
+    height: 100vh;
+    gap: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 150px;
+    height: 200px;
+    width: 700px;
+    border: 8px solid white;
+}
+
+.circle {
+    width: 175px;
+    height: 175px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+#first {
+    animation: blink1 2s infinite ease-in-out;
+}
+
+#second {
+    animation: blink2 2s infinite ease-in-out;
+}
+
+#third {
+    animation: blink3 2s infinite ease-in-out;
+}
+
+
+@keyframes blink1 {
+    0%, 100% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    20% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes blink2 {
+    0%, 100% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes blink3 {
+    0%, 100% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    60% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

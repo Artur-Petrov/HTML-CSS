@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+}
+.animation_square{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: orange;
+    animation: preloader 2s linear infinite alternate;
+}
+@keyframes preloader {
+    from{
+        background-color: orange;
+        transform: translateX(100px);
+
+    }
+    50%{
+        background-color: red;
+    }
+    to{
+        background-color: gold;
+        transform: translateX(-100px);
+    }
+}
