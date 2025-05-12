@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 6.2</title>
+    <style>
+        /*h1+p{*/
+        /*    color: pink;*/
+        /*}*/
+        h1~p{
+            color: blue;
+        }
+        /*div p span{*/
+        /*    color: blue;*/
+        /*}*/
+        div>p>span{
+            color: red;
+        }
+        div>div>p{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+<h1>Lorem ipsum dolor sit.</h1>
+<p>Lorem ipsum dolor sit amet.</p>
+<p>Lorem ipsum dolor sit amet.</p>
+<p>Lorem ipsum dolor sit amet.</p>
+<p>Lorem ipsum dolor sit amet.</p>
+<p>Lorem ipsum dolor sit amet.</p>
+<p>Lorem ipsum dolor sit amet.</p>
+<h3>Lorem ipsum.</h3>
+<div>
+    <p>Lorem ipsum dolor sit.</p>
+    <p>Lorem <span>ipsum dolor</span> sit.</p>
+    <p>Lorem ipsum dolor sit.</p>
+    <div>
+        <p>Lorem ipsum dolor.</p>
+        <p>Lorem ipsum dolor.</p>
+        <p>Lorem ipsum dolor.</p>
+        <p>Lorem ipsum dolor.</p>
+    </div>
+    <p>Lorem ipsum dolor sit.</p>
+    <p>Lorem ipsum dolor sit.</p>
+    <p>Lorem ipsum dolor sit.</p>
+    <p>Lorem ipsum dolor sit.</p>
+</div>
+</body>
+</html>

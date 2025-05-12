@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 6.3</title>
+    <style>
+        /*div :first-child{*/
+        /*    color: blue;*/
+        /*}*/
+        div :last-child{
+            color: red;
+        }
+        /*div p::first-letter{*/
+        /*    color: red;*/
+        /*    font-size: 20px;*/
+        /*}*/
+        /*div p::first-line{*/
+        /*    color: green;*/
+        /*}*/
+        div p:last-of-type{
+            color: crimson;
+        }
+        /*ul li:nth-child(2n){*/
+        /*    color: cyan;*/
+        /*}*/
+        ul li:nth-last-child(2n+3){
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ipsum iste iure quaerat similique. Aliquam commodi excepturi harum mollitia, porro ratione ut? Culpa excepturi libero nisi nostrum possimus quos temporibus?</p>
+        <p>Accusantium aut mollitia ut.</p>
+        <p>Incidunt quia sint veritatis!</p>
+        <p>Illo iste quam quod.</p>
+        <p>Aut est iure molestias.</p>
+        <p>Eveniet numquam repellat tempore!</p>
+        <p>Illum ipsam praesentium voluptatum?</p>
+        <p>Aliquam nostrum nulla rem.</p>
+        <span>Lorem.</span><span>Obcaecati?</span><span>Voluptatibus!</span><span>Velit.</span>
+    </div>
+<ul>
+    <li>Lorem ipsum dolor.</li>
+    <li>Ad iusto, quis!</li>
+    <li>Cupiditate, ducimus, minus!</li>
+    <li>Accusamus, libero, possimus.</li>
+    <li>Ad, inventore officiis.</li>
+    <li>Beatae, consequuntur, similique?</li>
+    <li>Id qui, sint!</li>
+    <li>Cupiditate, reiciendis, voluptates.</li>
+    <li>Beatae, qui, voluptatem?</li>
+    <li>Odit, placeat, rem.</li>
+    <li>Consectetur, reprehenderit voluptatem.</li>
+    <li>Dolores, iusto, sit.</li>
+    <li>Cupiditate, in, reiciendis!</li>
+    <li>Quis, quos vitae.</li>
+    <li>Necessitatibus, sint temporibus.</li>
+</ul>
+</body>
+</html>
