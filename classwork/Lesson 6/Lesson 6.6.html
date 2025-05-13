@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 6.6</title>
+    <style>
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+        form sup{
+            color: red;
+        }
+        /*input{*/
+        /*    width: 150px;*/
+        /*}*/
+        textarea{
+            resize: none;
+            width: 140px;
+        }
+        .form-registration{
+            border: 3px solid lightseagreen;
+            width: 30%;
+            border-radius: 20px;
+            padding: 50px;
+        }
+        input[type="text"]{
+            background-color: lightcoral;
+            border: 2px solid lightseagreen;
+            border-radius: 2px;
+            color: cornflowerblue;
+            font-family: sans-serif;
+        }
+        input[type="text"]::placeholder{
+            color: red;
+        }
+        input[type="text"]:focus{
+            outline: 2px solid lightgreen;
+        }
+    </style>
+</head>
+<body>
+<form class="form-registration">
+    <label for="name">Enter your name</label>
+    <input type="text" name="name" id="name" placeholder="Artur" required> <sup>*</sup>
+
+    <label for="email">Enter your email</label>
+    <input type="email" name="email" id="email" placeholder="Artur@gmail.com" required> <sup>*</sup>
+
+    <label for="password">Enter your password</label>
+    <input type="password" name="password" id="password" placeholder="Password" required> <sup>*</sup>
+
+    <label for="number">Enter your age</label>
+    <input type="number" name="number" id="number" min="18" max="99">
+
+    <label for="date">Date</label>
+    <input type="date" name="date" id="date">
+
+    <label>Sex</label>
+    <label><input type="radio" name="gender" value="male">Man</label>
+    <label><input type="radio" name="gender" value="female">Woman</label>
+
+    <label>
+        <input type="checkbox" name="newsletter">Subscribe on news
+    </label>
+
+    <label for="lorem">Country</label>
+    <select id="lorem">
+        <option value="">Choose an option</option>
+        <option value="ua">Ukraine</option>
+        <option value="usa">USA</option>
+        <option value="ca">Canada</option>
+        <option value="uk">Great Britain</option>
+    </select>
+
+    <label for="phone"></label>
+    <select id="phone">
+        <optgroup label="APPLE">
+            <option value="x">Iphone X</option>
+            <option value="xr">Iphone XR</option>
+            <option value="xs">Iphone XS</option>
+        </optgroup>
+        <optgroup label="SAMSUNG">
+            <option value="x">Iphone X</option>
+            <option value="xr">Iphone XR</option>
+            <option value="xs">Iphone XS</option>
+        </optgroup>
+    </select>
+
+    <label for="comment"></label>
+    <textarea id="comment" rows="4" cols="30"></textarea>
+    
+    <div>
+        <input type="submit" value="Надіслати">
+        <input type="reset" value="Скинути">
+    </div>
+</form>
+</body>
+</html>
