@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 7.5.1</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            gap: 100px;
+        }
+        .card{
+            width: 200px;
+            height: 250px;
+            background-color: lightslategray;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .sale{
+            width: 70px;
+            height: 45px;
+            background-color: lightslategray;
+            position: absolute;
+            top: -20px;
+            border-radius: 20px 20px 0 0;
+        }
+        .sale-bottom{
+            width: 70px;
+            height: 45px;
+            background-color: lightslategray;
+            position: absolute;
+            bottom: -20px;
+            border-radius: 0 0 20px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="sale"></div>
+        <p>Lorem ipsum.</p>
+        <p>Ipsa, omnis?</p>
+        <p>Perferendis, ullam?</p>
+        <div class="sale-bottom"></div>
+    </div>
+
+</body>
+</html>
