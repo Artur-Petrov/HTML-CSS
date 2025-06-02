@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap');
+@media screen and (min-width: 769px) and (max-width: 1279px){
+    .container{
+        width: 720px;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    .item{
+        width: 348px;
+        margin-bottom: 16px;
+    }
+
+}
