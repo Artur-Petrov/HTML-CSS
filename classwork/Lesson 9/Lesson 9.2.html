@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 9.2</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .grid-container{
+            display: grid;
+            height: 400px;
+            background-color: grey;
+            border: 1px solid black;
+            grid-template-columns: repeat(3, 100px);
+            grid-template-rows: repeat(2, 100px);
+            justify-content: center;
+            align-content: center;
+            justify-items: center;
+            align-items: center;
+        }
+        .item{
+            background-color: lightpink;
+            text-align: center;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item"><span>1</span></div>
+        <div class="item"><span>2</span></div>
+        <div class="item"><span>3</span></div>
+        <div class="item"><span>4</span></div>
+        <div class="item"><span>5</span></div>
+        <div class="item"><span>6</span></div>
+    </div>
+</body>
+</html>
