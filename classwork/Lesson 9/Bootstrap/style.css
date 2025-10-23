@@ -1,0 +1,11 @@
+*{
+    margin:0;
+    padding:0;
+}
+.wrapper{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
