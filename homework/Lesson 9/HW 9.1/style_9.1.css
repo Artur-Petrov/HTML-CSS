@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 20% 60% 20%
+}
+header, footer{
+    background-color: #D9D9D9;
+}
+main{
+    background-color: #A4A4A4;
+}
